@@ -1,0 +1,22 @@
+@import '../../../../assets/styles/my-theme.scss';
+
+
+// :host {
+//   width: 80%;
+//   display: block;
+// }
+
+h1 {
+  text-align: center;
+  margin-bottom:82px !important;
+  font-weight: 900 !important;
+}
+
+.recaptcha {
+  padding: 10px 0;
+}
+
+
+.mat-form-field-appearance-fill .mat-form-field-flex  {
+  background-color: mat-color($my-primary-color, 50);
+}

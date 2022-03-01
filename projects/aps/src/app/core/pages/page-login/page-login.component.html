@@ -1,0 +1,41 @@
+<!-- <div
+  fxLayout
+  fxLayout.lt-sm="column"
+  class="container"
+  fxLayoutAlign="space-between"
+>
+  <div
+    class="info"
+    fxFlex="1 1 30%"
+    fxLayout="column"
+    fxLayoutAlign="center center"
+  >
+    <mat-icon svgIcon="logo"></mat-icon>
+    <h2>Sistema de Historias</h2>
+  </div>
+
+  <div class="login" fxFlex="1 1 30%" fxLayout fxLayoutAlign="center center">
+    <aps-login (onLogin)="login($event)"></aps-login>
+  </div>
+</div> -->
+
+
+<div class="container">
+
+  <div fxLayout="row" fxLayout.xs="column" fxFlexFill>
+
+    <div class="sec1" fxFlex="60" fxHide.xs fxLayoutAlign="center center">
+
+      <mat-icon class="logo" svgIcon="logo"></mat-icon>
+
+    </div>
+
+
+    <div class="sec2" fxFlex="40" fxFlex.xs='100' fxLayoutAlign="center center">
+      <aps-login fxFlex='80' (onLogin)="login($event)"></aps-login>
+
+    </div>
+
+  </div>
+
+</div>
